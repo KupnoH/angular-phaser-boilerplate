@@ -9,5 +9,12 @@
 </head>
 <body>
   <app-root></app-root>
+
+  <!-- this is necessary for phaser work -->
+  <script>
+    if (global === undefined) {
+      var global = window;
+    }
+  </script>
 </body>
 </html>
