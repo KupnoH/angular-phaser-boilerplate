@@ -8,7 +8,6 @@ export const config = {
   height: 640,
   width: 800,
   scene: gameScenes,
-  parent: 'gameContainer',
   physics: {
     default: 'arcade',
     arcade: {
